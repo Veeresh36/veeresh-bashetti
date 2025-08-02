@@ -73,9 +73,9 @@
     width: 28rem;
     height: auto;
     border-radius: 5px;
-        border-bottom-left-radius: 150px;
-        padding: 10px;
-        border: 3.5px dashed #888;
+    border-bottom-left-radius: 120px;
+    padding: 10px;
+    border: 3.5px dashed #888;
 }   
 
 
