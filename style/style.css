@@ -127,7 +127,7 @@ button{
 .about__image{
     animation: appear__right linear;
     animation-timeline: view();
-    animation-range: entry 0% cover var(--size-4xl);
+    animation-range: entry 0% cover 50%;
 }
 
 header, main{
