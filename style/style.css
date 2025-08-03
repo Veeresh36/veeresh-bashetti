@@ -112,11 +112,6 @@ button{
     background-color: var(--clr-rose);
 }
 
-
-
-
-
-
 @media (min-width: 1024px){
     .about__content{
     animation: appear__left linear;
