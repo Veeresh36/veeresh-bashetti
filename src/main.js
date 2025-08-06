@@ -8,8 +8,10 @@ import "../style/components/featured.css";
 import "../style/components/contact.css";
 import "../style/components/footer.css";
 import "../style/components/mobile-nav.css";
+import "../style/components/projects.css";
 import "../style/utils.css";
 
+import "../src/project";
 import cursors from "./utils/custcur";
 import mobileNav from "./utils/mobile-nav";
 import darkMode from "./utils/dark-mode";
