@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,25 @@
   <link rel="stylesheet" href="style/projects.css">
   <link rel="stylesheet" href="style/style.css">
 
+  <!-- 👇 Early theme script -->
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-mode');
+      } else {
+        document.documentElement.classList.remove('light-mode');
+      }
+    } catch (e) {
+      console.error('Theme detection failed:', e);
+    }
+  </script>
+
   <title>Projects</title>
 </head>
+
 <body>
-  
+
   </header>
   <main></main>
   <footer></footer>
@@ -19,4 +35,5 @@
   <script type="module" src="/src/project.js"></script>
 
 </body>
+
 </html>

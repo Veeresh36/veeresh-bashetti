@@ -16,11 +16,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
-    <!-- google fonts link -->
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <!-- google fonts link -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet">
 
-    <!-- style link -->
-    <link rel="stylesheet" href="style/style.css">
+  <!-- style link -->
+  <link rel="stylesheet" href="style/style.css">
 
 
   <!-- Title Tag -->
@@ -66,6 +68,20 @@
         "description": "Frontend & MERN stack developer portfolio of Veeresh Bashetti. React.js projects, fullstack projects on MERN, JavaScript skills,  bootstrap designs, and responsive mobile-first applications."
       }
     </script>
+
+  <!-- 👇 Early theme script -->
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-mode');
+      } else {
+        document.documentElement.classList.remove('light-mode');
+      }
+    } catch (e) {
+      console.error('Theme detection failed:', e);
+    }
+  </script>
 
 </head>
 
@@ -232,8 +248,10 @@
                 <div class="get__project">
                   <a class="main__achor" href=""><img class="preview__img" src="./public/01.jpg" alt=""></a>
                   <div class="product__sec__desc">
-                    <a class="sec__anchor h4" href="#">Car Rental Platform with Booking, Admin Dashboard, and MERN Stack Features</a>
-                    <a class="p" href="">This project uses MongoDB, Express, React, and Node.js to deliver a robust full-stack experience.</a>
+                    <a class="sec__anchor h4" href="#">Car Rental Platform with Booking, Admin Dashboard, and MERN Stack
+                      Features</a>
+                    <a class="p" href="">This project uses MongoDB, Express, React, and Node.js to deliver a robust
+                      full-stack experience.</a>
                     <div class="btns">
                       <a class="btn__cart btn__code text-white" href="#">Get Code</a>
                       <a class="btn__cart btn__op text-black" href="#">Live Preview</a>
