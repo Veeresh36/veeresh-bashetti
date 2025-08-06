@@ -376,23 +376,23 @@ a.h4 {
         font-weight: 500;
     }
 
-.btn__cart {
-    width: 100px;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 12px;
-    background-color: var(--clr-rose);
-    text-decoration: none;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 600;
-}
+    .btn__cart {
+        width: 100px;
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 12px;
+        background-color: var(--clr-rose);
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 600;
+    }
 
-.btn__op {
-    background-color: #fff;
-    color: #000;
-    font-weight: 500;
-}
+    .btn__op {
+        background-color: #fff;
+        color: #000;
+        font-weight: 500;
+    }
 
     .more__projects {
         width: 100%;
@@ -535,23 +535,23 @@ a.h4 {
         border-color: transparent;
     }
 
-.btn__cart {
-    width: 200px;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 12px;
-    background-color: var(--clr-rose);
-    text-decoration: none;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 600;
-}
+    .btn__cart {
+        width: 200px;
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 12px;
+        background-color: var(--clr-rose);
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 600;
+    }
 
-.btn__op {
-    background-color: #fff;
-    color: #000;
-    font-weight: 500;
-}
+    .btn__op {
+        background-color: #fff;
+        color: #000;
+        font-weight: 500;
+    }
 
     .more__projects {
         width: 100%;
@@ -657,6 +657,8 @@ a.h4 {
 
     .accordion-body {
         border-top: 1px solid #fff;
+        -webkit-box-shadow: inset -1px 7px 13px -9px #000000;
+        box-shadow: inset -1px 7px 13px -9px #000000;
         background: linear-gradient(265deg, rgba(26, 31, 62, 1) 29%, rgba(38, 53, 122, 1) 100%);
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -739,23 +741,23 @@ a.h4 {
         font-weight: 500;
     }
 
-.btn__cart {
-    width: 200px;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 12px;
-    background-color: var(--clr-rose);
-    text-decoration: none;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 600;
-}
+    .btn__cart {
+        width: 200px;
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 12px;
+        background-color: var(--clr-rose);
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 600;
+    }
 
-.btn__op {
-    background-color: #fff;
-    color: #000;
-    font-weight: 500;
-}
+    .btn__op {
+        background-color: #fff;
+        color: #000;
+        font-weight: 500;
+    }
 
     .more__projects {
         width: 100%;
@@ -923,23 +925,23 @@ a.h4 {
         font-weight: 500;
     }
 
-.btn__cart {
-    width: 200px;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 12px;
-    background-color: var(--clr-rose);
-    text-decoration: none;
-    color: #fff;
-    border-radius: 10px;
-    font-weight: 600;
-}
+    .btn__cart {
+        width: 200px;
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 12px;
+        background-color: var(--clr-rose);
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 600;
+    }
 
-.btn__op {
-    background-color: #fff;
-    color: #000;
-    font-weight: 500;
-}
+    .btn__op {
+        background-color: #fff;
+        color: #000;
+        font-weight: 500;
+    }
 
     .more__projects {
         width: 100%;
