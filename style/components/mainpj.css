@@ -1,0 +1,156 @@
+.project__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.projects__opt {
+    margin: 20px;
+}
+
+.accordion {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.accordion-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.accordion-item {
+    background-color: #1A1F3E;
+    /* default dark */
+    width: 400px;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-item:nth-child(odd) {
+    background-color: #1A1F3E;
+    color: #F4F4F4;
+    border-radius: 15px;
+}
+
+.accordion-item:nth-child(even) {
+    background-color: #26357a;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/* Image on top */
+.project__img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Accordion button */
+.accordion-button {
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: inherit;
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+/* Accordion body */
+.accordion-body {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--clr-slate400);
+    background-color: transparent;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
+/* Description */
+.project__desc h2 {
+    font-size: 20px;
+    padding: 10px 1rem 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.project__desc p {
+    padding: 0 1rem 1rem;
+    font-size: 14px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #757575;
+}
+
+/* Buttons section */
+.get__project {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn__cart {
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: var(--clr-rose);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn__op {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.accordion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items:center;
+}
+
+.accordion-item {
+  flex: 1 1 300px;
+}
+
+
+.light-mode .project__desc p,
+.light-mode .accordion-body {
+    color: #757575;
+
+}

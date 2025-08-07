@@ -1,0 +1,81 @@
+.pj__body {
+    width: 100%;
+}
+
+.prj__header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid var(--clr-babyhairs);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.search-container {
+    flex-grow: 1;
+    max-width: 400px;
+    margin-left: 1rem;
+}
+
+.search-box {
+    width: 100%;
+    padding: 0.4rem 1rem 0.4rem 2.5rem;
+    border: 1px solid var(--clr-slate400);
+    border-radius: 9999px;
+    background-color: transparent;
+    color: var(--clr-light);
+    font-size: 1rem;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" height="24" stroke="%23fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>');
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 18px 18px;
+    transition: border-color 0.3s ease;
+}
+
+.search-box::placeholder {
+    color: var(--clr-light);
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" class="searchBtn" height="24" stroke="%233b82f6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>');
+}
+
+
+
+
+/* footer */
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto 2rem auto;
+    padding: 0 1rem;
+    border-top: 1px solid #575757;
+}
+
+.footer-links {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.2rem;
+    flex-wrap: wrap;
+    color: #727272;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    user-select: none;
+    transition: color 0.25s ease;
+}
+.footer-links a:hover {
+    color: var(--clr-light);
+    font-weight: 700;
+}

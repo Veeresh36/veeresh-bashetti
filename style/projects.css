@@ -1,4 +1,4 @@
-:root{
+:root {
     --clr-dark: #020617;
     --clr-light: #e2e8f0;
     --clr-slate400: #94a3b8;
@@ -10,42 +10,48 @@
     --clr-black: #000;
     --clr-babyface: #970000;
     --clr-babyhairs: #595959;
+
+    /* Override Bootstrap default colors */
+    --bs-body-bg: #020617;
+    --bs-body-color: #e2e8f0;
     /* rgb(225, 29, 72) rose */
     /* rgb(79, 70, 229) indigo */
 
-/* sizes */
---size-xxs: 00.5rem;
---size-xs: 0.75rem;
---size-sm: 0.875rem;
---size-base: 1rem;
---size-lg: 1.125rem;
---size-xlg: 1.25rem;
---size-2xl: 1.5rem;
---size-3xl: 1.875rem;
---size-4xl: 2.25rem;
---size-5xl: 3rem;
---size-6xl: 3.75rem;
---size-7xl: 4.5rem;
---size-8xl: 6rem;
---size-9xl: 8rem;
---size-10xl: 10rem;
+    /* sizes */
+    --size-xxs: 00.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xlg: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
 
 }
 
-.light-mode{
+.light-mode {
     --clr-light: #020617;
     --clr-dark: #e2e8f0;
     --clr-slate400: #94a3b8;
     --clr-slate600: #475569;
     --clr-slate800: #1e293b;
+
+    /* Bootstrap overrides for light mode */
+    --bs-body-bg: #e2e8f0;
+    --bs-body-color: #020617;
 }
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-
 
