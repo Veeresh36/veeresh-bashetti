@@ -51,12 +51,19 @@
     vertical-align: middle;
 }
 
+.con__nav__mob .tab_titles button{
+    -webkit-tap-highlight-color: transparent; /* Remove blue overlay */
+  outline: none;
+}
 
+.con__nav__mob .tab_titles button:focus{
+    outline: none;
+}
 
 
 .container__grid {
     display: grid;
-    grid-template-columns: 295px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     justify-content: center;
     margin: 0 10px;
