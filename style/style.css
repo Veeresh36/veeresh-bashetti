@@ -1,6 +1,8 @@
 :root {
     --clr-dark: #020617;
     --clr-light: #e2e8f0;
+    --clr-p-light: #e2e8f0;
+    --clr-p-dark: #1B2A49;
     --clr-slate400: #94a3b8;
     --clr-slate600: #475569;
     --clr-slate800: #1e293b;
@@ -32,19 +34,12 @@
 
 }
 
-:root {
-    --bg: #fff;
-    --text: #000;
-}
-
-[data-theme='dark'] {
-    --bg: #111;
-    --text: #eee;
-}
 
 .light-mode {
     --clr-light: #020617;
     --clr-dark: #e2e8f0;
+    --clr-p-light: #1B2A49;
+    --clr-p-dark: #e2e8f0;
     --clr-slate400: #94a3b8;
     --clr-slate600: #475569;
     --clr-slate800: #1e293b;
