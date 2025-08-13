@@ -1,8 +1,10 @@
 .perent__audio__container {
+    width: 300px;
+    height: 60px;
     display: flex;
     align-items: center;
+    margin-left: -10px;
     font-size: 14px;
-    margin-left: -20px;
 }
 
 .perent__audio__container span {
@@ -29,6 +31,7 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.292);
     position: relative;
+    left: 25px;
     animation: bliking 1.5s infinite;
 }
 
@@ -50,8 +53,9 @@
 
 .audio-container {
     position: relative;
-    width: 80px;
-    height: 80px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
 }
 
 .audio-controls {
@@ -117,6 +121,6 @@
         align-items: center;
         font-size: 14px;
         margin-top: -10px;
-        margin-left: -20px;
+        margin-left: 0px;
     }
 }
